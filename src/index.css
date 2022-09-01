@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.myTooltip {
+  -webkit-border-radius: 4px; /* Safari, Chrome */
+  -khtml-border-radius: 4px;    /* Konqueror */
+  -moz-border-radius: 4px; /* Firefox */
+   border-radius: 7px;
+   width: auto;
+   height: auto;
+   padding: 12px;
+   border: 1px solid white;   
+   color: white;     
+   font-size: small;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
